@@ -1,0 +1,47 @@
+server:
+  url: localhost
+  port: 50051
+resources:
+#- ip: 10.249.51.28
+#  username: Administrator
+#  password: YFJDJC9T
+#  vendor: HP
+#  useCases:
+#    power:
+#    - happyTests
+#- ip: 10.246.20.117
+#  username: ADMIN
+#  password: ADMIN
+#  vendor: supermicrox10
+#  useCases:
+#    power:
+#    - happyTests
+#- ip: 10.249.51.29
+#  username: Administrator
+#  password: R5CJZY58
+#  vendor: HP
+#  useCases:
+#    power:
+#    - happyTests
+#- ip: 10.229.38.57
+#  username: admin
+#  password: admin
+#  vendor: ASRockRack
+#  useCases:
+#    power:
+#    - notIdentifiableTests
+#- ip: 10.236.131.35
+#  username: ADMIN
+#  password: TUMMYARHGY
+#  vendor: supermicrox11
+#  useCases:
+#    power:
+    #- happyTests
+# vv good to test against vv
+- ip: 10.250.29.57
+  username: root
+  password: calvin
+  vendor: dell
+  useCases:
+    power:
+    - happyTests
